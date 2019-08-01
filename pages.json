@@ -1,0 +1,154 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/home/login",
+		    "style" : {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "模式选择",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/home/demo",
+			"style": {
+				"navigationBarTitleText": "最强PK",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/home/my",
+			"style": {
+				"navigationBarTitleText": "控制终端",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/home/echo",
+			"style": {
+				"navigationBarTitleText": "AI智能地带",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/ucharts-demo/index",
+			"style": {
+				"navigationBarTitleText": "历史数据",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/ucharts-demo/column/column",
+			"style": {
+				"navigationBarTitleText": "基本柱状图",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/ucharts-demo/column/meter",
+			"style": {
+				"navigationBarTitleText": "温度计式图表",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/ucharts-demo/column/stack",
+			"style": {
+				"navigationBarTitleText": "堆叠图",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/ucharts-demo/mix/mix",
+			"style": {
+				"navigationBarTitleText": "混合图",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/ucharts-demo/line/rotate",
+			"style": {
+				"navigationBarTitleText": "横屏图表",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/ucharts-demo/column/rotate",
+			"style": {
+				"navigationBarTitleText": "横屏图表",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/ucharts-demo/candle/candle",
+			"style": {
+				"navigationBarTitleText": "基本K线图",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/ucharts-demo/line/line",
+			"style": {
+				"navigationBarTitleText": "基本折线图",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/ucharts-demo/pie/pie",
+			"style": {
+				"navigationBarTitleText": "基本饼图",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/ucharts-demo/pie/ring",
+			"style": {
+				"navigationBarTitleText": "基本环形图",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/ucharts-demo/pie/pie-legend",
+			"style": {
+				"navigationBarTitleText": "饼图右侧图例",
+				"navigationBarTextStyle":"white"
+			}
+		}
+    ],
+	"globalStyle": {
+		// "navigationStyle": "custom"
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "AI可视化",
+		"navigationBarBackgroundColor": "#333",
+		"backgroundColor": "#fde6d2",
+		"mp-alipay" : {
+		    "titleBarColor" : "#FFFFFF"
+		}
+	},
+	"tabBar": {
+		"color": "#C0C0C0",
+		"selectedColor": "#f37b1d",
+		"borderStyle": "black",
+		"backgroundColor": "#333333",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo_dev.png",
+			"text": "监控"
+		}, {
+			"pagePath": "pages/ucharts-demo/index",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo_dev.png",
+			"text": "数据"
+		},{
+			"pagePath": "pages/home/my",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo_dev.png",
+			"text": "终端"
+		}]
+	}
+}

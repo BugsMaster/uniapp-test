@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/home/login",
+    "pages/home/index",
+    "pages/home/demo",
+    "pages/home/my",
+    "pages/home/echo",
+    "pages/ucharts-demo/index",
+    "pages/ucharts-demo/column/column",
+    "pages/ucharts-demo/column/meter",
+    "pages/ucharts-demo/column/stack",
+    "pages/ucharts-demo/mix/mix",
+    "pages/ucharts-demo/line/rotate",
+    "pages/ucharts-demo/column/rotate",
+    "pages/ucharts-demo/candle/candle",
+    "pages/ucharts-demo/line/line",
+    "pages/ucharts-demo/pie/pie",
+    "pages/ucharts-demo/pie/ring",
+    "pages/ucharts-demo/pie/pie-legend"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "AI可视化",
+    "navigationBarBackgroundColor": "#333",
+    "backgroundColor": "#fde6d2"
+  },
+  "tabBar": {
+    "color": "#C0C0C0",
+    "selectedColor": "#f37b1d",
+    "borderStyle": "black",
+    "backgroundColor": "#333333",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo_dev.png",
+        "text": "监控"
+      },
+      {
+        "pagePath": "pages/ucharts-demo/index",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo_dev.png",
+        "text": "数据"
+      },
+      {
+        "pagePath": "pages/home/my",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo_dev.png",
+        "text": "终端"
+      }
+    ]
+  },
+  "permission": {},
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.0",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "usingComponents": {}
+}

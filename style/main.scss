@@ -1,0 +1,44 @@
+/* ==================
+        初始化
+ ==================== */
+	@import 'icon.scss';
+	@import '~@/style/font/holyuni.scss';
+//===================================
+page {
+	background-color: $gradualBlue;
+	font-size: 28rpx;
+	color: $black;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	background-clip: border-box;
+}
+
+view,
+scroll-view,
+swiper,
+button,
+input,
+textarea,
+label,
+navigator,
+image {
+	// box-sizing: border-box;
+}
+
+.round {
+	border-radius: 5000rpx;
+}
+
+.radius {
+	border-radius: 6rpx;
+}
+
+/* ==================
+          图片
+ ==================== */
+
+image {
+	max-width: 100%;
+	display: inline-block;
+	position: relative;
+	z-index: 0;
+}
